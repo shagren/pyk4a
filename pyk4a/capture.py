@@ -76,3 +76,7 @@ class PyK4ACapture:
                 self.color, self.depth, self._calibration, self.thread_safe
             )
         return self._transformed_color
+
+def some_new_func_without_coverage():
+    for i in range(100):
+        print(i)
